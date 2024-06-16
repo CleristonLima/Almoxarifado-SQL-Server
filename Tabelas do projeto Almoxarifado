@@ -73,7 +73,7 @@ SELECT * FROM TB_SEX_EMPLO;
 SELECT * FROM TB_UF;
 
 CREATE TABLE TB_UF (ID_UF INT PRIMARY KEY NOT NULL,
-					CODE_UF VARCHAR(2) NOT NULL,
+					CODE_UF VARCHAR(3) NOT NULL,
 					DESC_UF VARCHAR(30) NOT NULL);
 
 INSERT INTO TB_UF (ID_UF, CODE_UF, DESC_UF) VALUES (1, 'AC', 'Acre'),
@@ -102,7 +102,8 @@ INSERT INTO TB_UF (ID_UF, CODE_UF, DESC_UF) VALUES (1, 'AC', 'Acre'),
 												   (24, 'SC', 'Santa Catarina'),
 												   (25, 'SP', 'São Paulo'),
 												   (26, 'SE', 'Sergipe'),
-												   (27, 'TO', 'Tocantins');
+												   (27, 'TO', 'Tocantins'),
+											           (28, 'N/A', 'Estado fora do Brasil');
 
 
 ------------------------- RH --------------------------------------------------------------------------
